@@ -5,7 +5,7 @@ date: "2015-02-16"
 tags: [repos,productivity]
 ---
 
-I've been meaning to make this tool for a while. As many of my readers know, I store all my notes in simple text files, and those files in a Dropbox directory. This has the benefit of not being tide to a single app, small memory footprint, and redundant backup with a version control system, git in my case.
+I've been meaning to make this tool for a while. As many of my readers know, I store all my notes in simple text files, and those files in a Dropbox directory. This has the benefit of not being tied to a single app, small memory footprint, and redundant backup with a version control system, git in my case.
 
 I created __[squash](https://github.com/torsday/squash)__ to merge files of similar content into single ones, in the interest of keeping the number of files in check, and the content tight.
 
