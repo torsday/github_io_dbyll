@@ -7,7 +7,7 @@ tags: [repos,productivity]
 
 I've been meaning to make this tool for a while. As many of my readers know, I store all my notes in simple text files, and those files in a Dropbox directory. This has the benefit of not being tide to a single app, small memory footprint, and redundant backup with a version control system, git in my case.
 
-I created __squash__ to merge files of similar content into single ones, in the interest of keeping the number of files in check, and the content tight.
+I created __[squash](https://github.com/torsday/squash)__ to merge files of similar content into single ones, in the interest of keeping the number of files in check, and the content tight.
 
 ## INSTALLATION
 
@@ -23,7 +23,7 @@ Within a directory with many `.md` files run
 $ squash term1 term2 term3
 {% endhighlight %}
 
-This will collect files with the arguments, deleting them, but not before combinging them in a single file titled after the first term. Within the file itself, it uses that same first term as the H1 header, creates an index of all _squashed_ files, and adds an additional # onto any header declarations, thereby having them meld nicely into a single file.
+This will collect files with the arguments, deleting them, but not before combinging them in a single file titled after the first term. Within the file itself, it uses that same first term as the ```H1``` header, creates an index of all _squashed_ files, and adds an additional ```#``` onto any header declarations, downgrading their header status.
 
 
 ## EXAMPLE
